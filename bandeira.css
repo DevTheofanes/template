@@ -1,0 +1,35 @@
+.bandeira{
+  width: 400px;
+  height: 220px;
+  margin: 24px auto;
+}
+
+.bandeira:hover{
+  transform: rotateY(180deg);
+}
+
+.bandeira .frente{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transform: rotateY(0deg);
+}
+
+.bandeira .tras{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transform: rotateY(180deg);
+}
