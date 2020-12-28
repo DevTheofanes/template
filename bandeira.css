@@ -19,6 +19,9 @@
   justify-content: center;
   flex-direction: column;
   transform: rotateY(0deg);
+  background: url('https://i.servimg.com/u/f78/20/28/48/59/design10.png') no-repeat;
+  background-size: cover;
+  background-position: 100% 100%;
 }
 
 .bandeira .tras{
@@ -32,4 +35,7 @@
   justify-content: center;
   flex-direction: column;
   transform: rotateY(180deg);
+  background: url('https://cdn.discordapp.com/attachments/723536042333962386/728657037298237520/image0.gif') no-repeat;
+  background-size: cover;
+  background-position: 100% 100%;
 }
