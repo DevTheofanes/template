@@ -1,0 +1,67 @@
+body{
+  margin:0;
+  padding: 0;
+}
+
+.itemCharacter{
+  display: flex;
+  flex-direction: row;
+  background-color: #111;
+  
+  /* border-top: 1px solid #eee; */
+  max-width: 440px;
+  padding-top: 20px;
+}
+
+.cartTarot{
+  height: 400px !important;
+  width: 210px;
+}
+
+.textCharacter{
+  max-width: 210px;
+  margin-left: 20px;
+}
+
+.nameCharacter{
+  margin: 0 !important;
+  text-align: center;
+  font-size: 22px;
+  color:#FF2400;
+  font-family: 'Metal Mania', cursive;
+}
+
+.subTitleCharacter{
+  margin: 0;
+  font-size: 16px;
+  color:#78866b;
+  font-family: 'Metal Mania', cursive;
+  text-align: center;
+  margin-bottom: 4px;
+  font-weight: normal;
+}
+
+.descriptionCharacter{
+  margin: 0;
+  color: #fff;
+  text-align: justify;
+  text-justify: inter-word;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.footerCharacter{
+  margin: 5;
+  color: #fff;
+  text-align: justify;
+  text-justify: inter-word;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.spanFooter{
+  color:#FF2400;
+  font-weight: bold;
+  font-family: cursive;
+  font-style: italic;
+}
