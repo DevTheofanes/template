@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+body {background: #1C1C1C;}
+
+#formiga-tp {
+  width: 700px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  flex-direction: column;
+}
+
+#formiga-tp .topo {
+  display: block;
+  width: 700px;
+  height: 200px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  height: 120px;
+}
+
+/* #formiga-tp .topo .textinho {
+  width: 200px;
+  height: 200px;
+  background: #A80808;
+  float: left;
+  border-radius: 10px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#formiga-tp .topo .textinho i {
+  font-size: 100px;
+    width: 170px;
+  animation: pulso 2s infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+color: #000;
+}
+
+#formiga-tp:hover .topo .textinho i {
+  animation: none;
+}
+
+#formiga-tp .topo .textinho i:after {
+  content:'\eb03';
+font-family:'cappuccicons';
+  font-style: normal;
+}
+
+#formiga-tp:hover .topo .textinho i:after {
+  content:'\ea3d';
+font-family:'cappuccicons';
+  font-style: normal;
+} */
+
+/* #formiga-tp .topo .gif {
+  height: 200px;
+  width: 500px;
+  background-color: #a80808;
+  background-blend-mode: multiply;
+  float: right;
+  border-radius: 0px 10px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 1s;  
+} */
+
+/* #formiga-tp:hover .topo .gif {
+  background-image:url(https://i.imgur.com/O9pumLv.gif)!important;
+} */
+
+#formiga-tp .topo  titulo {
+  width: 450px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: poiret one;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 35px;
+  text-shadow: 1px 1px 1px #000;
+  line-height: 30px;
+}
+
+#formiga-tp .textao {
+  width: 540px;
+  padding: 40px 80px;
+  padding: 0 80px 40px 80px;
+  text-align: justify;
+  font-family: oxygen;
+  font-size: 13px;
+  color: #fff;
+  background-color: #0a0a0a;
+  background-color: transparent;
+  
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  font-weight: 100;
+}
+
+#formiga-tp .textao b, #formiga-tp .textao i {
+  color: #76BDE4;
+}
+
+#formiga-tp .textao::selection {
+  background-color: #A80808;
+  color: #fff;
+}
+
+#formiga-tp .fim {
+  width: 540px;
+  height: 150px;
+  border-radius: 0px 0px 10px 10px;
+  /* display: flex;
+  flex-direction: row; */
+/*   display:grid;
+  grid-template-columns: 1fr 3fr; */
+}
+
+#formiga-tp .fim .icone {
+  /* width: 120px;
+  height: 120px;
+  float: left; */
+  border: 1px solid #76BDE4;
+  background-size: cover;
+  background-position: center;
+  /* border-radius: 0px 0px 0px 10px; */
+/*   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; */
+  
+  display:grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+#formiga-tp .fim .icone .form {
+  padding: 20px;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#formiga-tp .fim .icone label {
+  width: 100px;
+  height: 25px;
+  /* background: #000000; */
+  color: #fff;
+  font-family: oxygen;
+  text-transform: uppercase;
+  font-size: 10px;
+  text-align: center;
+  line-height: 25px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+#formiga-tp .fim .icone label:nth-of-type(1) {
+  margin-bottom: 5px;
+}
+
+#formiga-tp .fim .icone label:nth-of-type(2) {
+  margin-bottom: 5px;
+}
+
+#formiga-tp .fim .icone input[type="radio"]:checked + label {
+  background: #76BDE4;
+}
+
+#formiga-tp .fim .info1, #formiga-tp .fim .info2, #formiga-tp .fim .info3 {
+    /* background-color: #76BDE4; */
+    height: 110px;
+    /* width: 400px; */
+    /* border-radius: 0px 0px 10px 0px; */
+    /* position: absolute; */
+    /* margin-left: 650px; */
+    display: none;
+    padding: 20px;
+    color: #fff;
+    font-family: roboto;
+    font-size: 12.5px;
+    
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+    font-size: 11px;
+    font-weight: 100;
+    /* color: #76BDE4; */
+    overflow: auto;
+}
+
+/* #formiga-tp  #formiga-ficha:checked ~ * .icone .info1, #formiga-tp #formiga-objetivo:checked ~ *  .info2, #formiga-tp #formiga-historico:checked ~ .info3  {
+  display: block;
+} */
+
+#formiga-tp  #formiga-ficha:checked ~ .icone .info .info1{
+  display: block;
+}
+
+#formiga-tp .icone input[type="radio"] {
+  display: none;
+}
+
+@keyframes pulso {
+0% {
+    transform: scaleX(1);
+}
+50% {
+    transform: scale3d(1.2,1.2,1.2);
+}
+100% {
+    transform: scaleX(1);
+}
+
+#formiga-tp br {display: none;}
+
+#formiga-tp .textao br, #formiga-tp .info1 br, #formiga-tp .info 2 br {display: block;}
